@@ -1,0 +1,374 @@
+{
+    "camera": {
+        "type": "perspective",
+        "position": [
+            0,
+            2,
+            10
+        ],
+        "lookat": [
+            0,
+            0,
+            0
+        ],
+        "up": [
+            0,
+            1,
+            0
+        ],
+        "fov": 60
+    },
+    "root": {
+        "name": "node0",
+        "type": "node",
+        "translation": [
+            0,
+            0,
+            0
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ],
+        "children": [
+            {
+                "name": "plane_low_res",
+                "type": "object",
+                "obj": "objects/plane_low_res.obj",
+                "color": "#c2c2c2",
+                "translation": [
+                    0,
+                    1,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    10,
+                    1,
+                    10
+                ],
+                "children": []
+            },
+            {
+                "name": "teapot",
+                "type": "object",
+                "obj": "objects/teapot.obj",
+                "color": "#729e9a",
+                "translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "children": []
+            },
+            {
+                "name": "pyramid",
+                "type": "object",
+                "obj": "objects/pyramid.obj",
+                "color": "#729e9a",
+                "translation": [
+                    -1,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    180,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.25,
+                    1,
+                    0.25
+                ],
+                "children": []
+            },
+            {
+                "name": "cube",
+                "type": "object",
+                "obj": "objects/cube.obj",
+                "color": "#729e9a",
+                "translation": [
+                    0,
+                    0,
+                    2
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.1,
+                    0.1,
+                    0.1
+                ],
+                "children": []
+            },
+            {
+                "name": "prism",
+                "type": "object",
+                "obj": "objects/prism.obj",
+                "color": "#729e9a",
+                "translation": [
+                    -2,
+                    0,
+                    2
+                ],
+                "rotation": [
+                    90,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.1,
+                    0.1,
+                    0.5
+                ],
+                "children": []
+            },
+            {
+                "name": "prism_triangle",
+                "type": "object",
+                "obj": "objects/prism_triangle.obj",
+                "color": "#729e9a",
+                "translation": [
+                    0,
+                    0,
+                    -3
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.1,
+                    0.1,
+                    0.5
+                ],
+                "children": []
+            },
+            {
+                "name": "prism_rectangular",
+                "type": "object",
+                "obj": "objects/cube.obj",
+                "color": "#729e9a",
+                "translation": [
+                    1,
+                    0,
+                    -2
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.1,
+                    0.1,
+                    0.5
+                ],
+                "children": []
+            },
+            {
+                "name": "table",
+                "type": "node",
+                "translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "children": [
+                    {
+                        "name": "table_1",
+                        "type": "object",
+                        "obj": "objects/cube.obj",
+                        "color": "#ffff22",
+                        "translation": [
+                            3,
+                            0,
+                            3
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            0.1,
+                            0.5,
+                            0.1
+                        ],
+                        "children": []
+                    },
+                    {
+                        "name": "table_2",
+                        "type": "object",
+                        "obj": "objects/cube.obj",
+                        "color": "#ffff22",
+                        "translation": [
+                            3,
+                            0,
+                            2
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            0.1,
+                            0.5,
+                            0.1
+                        ],
+                        "children": []
+                    },
+                    {
+                        "name": "table_3",
+                        "type": "object",
+                        "obj": "objects/cube.obj",
+                        "color": "#ffff22",
+                        "translation": [
+                            2,
+                            0,
+                            3
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            0.1,
+                            0.5,
+                            0.1
+                        ],
+                        "children": []
+                    },
+                    {
+                        "name": "table_4",
+                        "type": "object",
+                        "obj": "objects/cube.obj",
+                        "color": "#ffff22",
+                        "translation": [
+                            2,
+                            0,
+                            2
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            0.1,
+                            0.5,
+                            0.1
+                        ],
+                        "children": []
+                    },
+                    {
+                        "name": "table_top",
+                        "type": "object",
+                        "obj": "objects/cube.obj",
+                        "color": "#ffff22",
+                        "translation": [
+                            2.5,
+                            0.5,
+                            2.5
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            0.6,
+                            0.1,
+                            0.6
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "light": [
+        {
+            "name": "point-1",
+            "type": "point",
+            "position": [
+                2.5,
+                0.2,
+                2.5
+            ],
+            "intensity": 100.0,
+            "color": [
+                1,
+                0.5,
+                1
+            ]
+        },
+        {
+            "name": "point-2",
+            "type": "point",
+            "position": [
+                0,
+                0.5,
+                0
+            ],
+            "intensity": 100.0,
+            "color": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "directional-1",
+            "type": "direction",
+            "direction": [
+                0,
+                0,
+                -1
+            ],
+            "intensity": 100.0,
+            "color": [
+                1,
+                1,
+                1
+            ]
+        }
+    ]
+}
